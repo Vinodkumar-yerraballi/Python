@@ -43,40 +43,40 @@
 
 # x=1j
 # print(x**2==-1)
-def listmissingnumber(n):
-    number=set(n)
-    length=len(n)
-    output=[]
-    for i in range(1,n[-1]):
-        if i not in number:
-             output.append(i)
-    return output
-listnumber=[1,2,3,5,9]
-print(listmissingnumber(listnumber))
+# def listmissingnumber(n):
+#     number=set(n)
+#     length=len(n)
+#     output=[]
+#     for i in range(1,n[-1]):
+#         if i not in number:
+#              output.append(i)
+#     return output
+# listnumber=[1,2,3,5,9]
+# print(listmissingnumber(listnumber))
 
-color=["black","red","green"]
-code=["##4","##7"]
-color_1=["color_name"]
-result=dict(zip(color,code))
-print(result)
-a=[1,3,5,8]
-b=[10,2,5]
-c=a+b
-print(c)
+# color=["black","red","green"]
+# code=["##4","##7"]
+# color_1=["color_name"]
+# result=dict(zip(color,code))
+# print(result)
+# a=[1,3,5,8]
+# b=[10,2,5]
+# c=a+b
+# print(c)
 
-lst=["a","b","c","d","e","f","g","h","1","2","4"]
-s = []
-n = 3
-for x in range(n):
-    s.append(lst[x::n])
-    print(s)
+# lst=["a","b","c","d","e","f","g","h","1","2","4"]
+# s = []
+# n = 3
+# for x in range(n):
+#     s.append(lst[x::n])
+#     print(s)
 
-man=["vinod"]
-can=["let' break the rule"]
-win=[]
-for man in range(1,2):
-    if win.append(man):
-        print(win)
-name=input("Enter your name")
-for i in range(1,10):
-       print(name)
+# man=["vinod"]
+# can=["let' break the rule"]
+# win=[]
+# for man in range(1,2):
+#     if win.append(man):
+#         print(win)
+# name=input("Enter your name")
+# for i in range(1,10):
+#        print(name)
