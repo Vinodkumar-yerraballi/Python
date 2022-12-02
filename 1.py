@@ -17,20 +17,20 @@ for i in range(len(apple_price)):
         print(i)
 
 # we create the same method in dictiornarys
-# apple_price_dict={
-#     "sunday":250,
-#     "monday":740,
-#     "tuseday":555,
-#     "wendsday":444,
-#     "thursday":550,
-#     "friday":980,
-#     "staturday":920,
-# }
-#finding the wendsday price
-# print(apple_price_dict["wendsday"])
-# print(apple_price_dict["staturday"])
-# for price in apple_price:
-#     print(price)
+apple_price_dict={
+    "sunday":250,
+    "monday":740,
+    "tuseday":555,
+    "wendsday":444,
+    "thursday":550,
+    "friday":980,
+    "staturday":920,
+}
+# finding the wendsday price
+print(apple_price_dict["wendsday"])
+print(apple_price_dict["staturday"])
+for price in apple_price:
+    print(price)
 
 # Exercise: Array DataStructure
 # Let us say your expense for every month are listed below,
