@@ -19,11 +19,11 @@ class singleLinkedlist :
         
 L=singleLinkedlist()
 n=Node(10)
-L.head=n
+L.head=n  # type: ignore
 n1=Node(20)
-L.head.next=n1
+L.head.next=n1  # type: ignore
 n2=Node(300)
-n1.next=n2
+n1.next=n2  # type: ignore
 n3=Node(400)
-n2.next=n3
+n2.next=n3  # type: ignore
 L.display()

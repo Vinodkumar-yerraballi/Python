@@ -49,7 +49,7 @@ class LinkdedList:
         while itr:
             if count == index - 1:
                 node = Node(data, itr.next)
-                itr.next = node
+                itr.next = node  # type: ignore
                 break
 
             itr = itr.next
@@ -59,14 +59,14 @@ class LinkdedList:
             raise Exception("Invalid Index")
 
         if index==0:
-            self.head = self.head.next
+            self.head = self.head.next # type: ignore
             return
 
         count = 0
         itr = self.head
         while itr:
             if count == index - 1:
-                itr.next = itr.next.next
+                itr.next = itr.next.next  # type: ignore
                 break
 
             itr = itr.next
