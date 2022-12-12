@@ -17,3 +17,17 @@ print(qube_formula(2,4))
 def qube_formual_minise(a,b):
     return a**3-b**3-3*a*b*(a-b)
 print(qube_formual_minise(4,5))
+def recursion(n):
+    if n<=1:
+        return n
+    else:
+        return(recursion(n-1)+recursion(n-2))
+    
+n_items=10
+if n_items<=0:
+    print("invalid number")
+else:
+    print("fobius series")
+for i in range(n_items):
+    print(recursion(i))
+
