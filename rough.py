@@ -54,3 +54,50 @@ print("Let's find the middle number",middel)
 for i in range(len(ball)-1):
     i +=1
     print(ball[i])
+
+# Remove the dublicate in the list 
+list_a=[1,2,3,2,2,1,4,5,6,5,6]
+#create a empty list=[]
+new_list=[]
+# use loop codition
+for i in list_a:
+    #using the if codition for the element not in the empty list then it will be append
+    if i not in new_list:
+        new_list.append(i)
+print(new_list)
+
+# [new_list.append(i) for i in list_a if i not in new_list]
+# print("Another method of the duplicate list",new_list)
+# def remove_duplicate(a):
+#     new_list=[]
+#     for i in a:
+#         if i not in new_list:
+#             new_list.append(i)
+#     return new_list
+# list_b=[1,1,3,3,4,5,6,6,7]
+# print("The  function of the new list is ",remove_duplicate(list_b))
+# languages=["Telugu","English","Hindi"]
+# for i in languages:
+#     print(i)
+#     print("Choose Your language")
+#     number=int(input("Enter your langugae number in 0-2  "))
+#     if number==0:
+#         print("Telugu",languages[0])
+#     elif number==1:
+#         print("English",languages[1])
+#     else:
+#         print("Hindi",languages[2])
+#     break
+password=1234
+atm_pin=int(input("Enter pin "))
+if password==atm_pin:
+    print("Change your old pin")
+    new_pin=int(input("Enter new pin  "))
+    password=new_pin
+    print(password)
+    # if languages=="Telugu":
+    #     print("Press 1",languages[0])
+    # elif languages=="English":
+    #     print("Press 2",languages[1])
+    # else:
+    #     print("Press 3 ",languages[2])
