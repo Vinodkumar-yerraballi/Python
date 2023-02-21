@@ -35,3 +35,9 @@ new_text={vowels for vowels in text if vowels in 'aeiou'}
 print(new_text)
 square={i:i*2 for i in range(10)}
 print(square)
+
+
+list_a=[1,2,3,4]
+for i in range(1,4):
+    list_a +=[i]
+    print(list_a)
