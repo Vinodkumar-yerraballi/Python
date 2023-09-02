@@ -15,8 +15,7 @@ class singleLinkedlist :
                print(temp.data,"--->",end=" ")
                temp=temp.next
 
-#create a object for the single linked list
-        
+#create a object for the single linked list    
 L=singleLinkedlist()
 n=Node(10)
 L.head=n  # type: ignore
