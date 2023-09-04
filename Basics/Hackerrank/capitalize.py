@@ -16,3 +16,16 @@ def find_the_number(number,list_a):
 list_b=[1,3,8,4,83]
 number=3
 print(find_the_number(number,list_b))
+
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print ("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color))
