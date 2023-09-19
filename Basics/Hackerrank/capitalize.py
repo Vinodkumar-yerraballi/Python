@@ -18,6 +18,7 @@ number=3
 print(find_the_number(number,list_b))
 
 
+<<<<<<< HEAD
 # reverse the list of numbers
 numbers=[1,3,8,4,83]
 def reverse_list(get_list):
@@ -27,3 +28,16 @@ def reverse_list(get_list):
                 i+=1
                 j-=1
 print(reverse_list(numbers))
+=======
+string_1 = "Camelot"
+string_2 = "place"
+
+print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print ("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color))
+>>>>>>> 6ca7c498896dc45fd098e544289994e00a073717
