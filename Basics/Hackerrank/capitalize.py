@@ -16,3 +16,14 @@ def find_the_number(number,list_a):
 list_b=[1,3,8,4,83]
 number=3
 print(find_the_number(number,list_b))
+
+
+# reverse the list of numbers
+numbers=[1,3,8,4,83]
+def reverse_list(get_list):
+    for i in range(len(get_list)):
+        for j in range(len(get_list)+1):
+            while (i>j):
+                i+=1
+                j-=1
+print(reverse_list(numbers))
