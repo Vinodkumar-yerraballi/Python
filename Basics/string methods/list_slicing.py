@@ -31,4 +31,17 @@ print(nums[::-1])  # output [0,1,2,3,4,5]
 sentece="Programming"
 print(sentece[-4:-1]) #output  min
 print(sentece[6:0:-2]) #output mro
-print(sentece[6:0:-1]) # output 
+print(sentece[6:0:-1]) # output margor
+
+
+# Question and answer
+list_a=input().split(",")
+list_b=input().split(",")
+len_of_list_a=len(list_a)
+n=len_of_list_a-1
+
+for i in range(len_of_list_a):
+    num_1=list_a[i]
+    num_2=list_b[i]
+    result=str(num_1)+ " " +str(num_2)
+    print(result)
