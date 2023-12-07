@@ -12,4 +12,4 @@ def greeting(name):
     message = 'Hello ' + name
     print(message)
 inp_put=input()
-print(greeting(inp_put)) # 
+print(greeting(inp_put)) # Hello vinod 
