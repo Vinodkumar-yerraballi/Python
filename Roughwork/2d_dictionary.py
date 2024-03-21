@@ -32,6 +32,6 @@ def find_frequency(input_list):
     for i in input_list:
         ouput[i] = ouput.get(i,0)+1
         print(i,ouput[i])
-    return ouput 
+    return set(sorted(ouput.keys()))
 
 print(find_frequency(input_list))
