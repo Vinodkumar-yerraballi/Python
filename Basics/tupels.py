@@ -62,3 +62,15 @@ def add_multplication(a,b):
 x,y=add_multplication(4,5)
 print(x) # output :9
 print(y) # output :20
+
+
+# coding challenge
+
+str_a=int()
+a=str_a.split(",")
+i=0
+
+for items in a:
+    a[i]=items
+    i += 1
+print(tuple(a)) # output : ('1', '2', '3')
