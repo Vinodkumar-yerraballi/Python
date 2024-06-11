@@ -4,5 +4,7 @@
 a=int(input())
 
 # convert the number into positive numbers multiplied by -1
-ouput=a*-1
-print(ouput)
+if a < 0:
+    print(a*-1)
+else:
+    print(a)
