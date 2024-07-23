@@ -19,11 +19,9 @@ class Mobile:
         print('Capturing... {}'.format(photo))
         return
     
-              
 
 # instance methods
 
 mobile_object=Mobile('Apple 14','64 MP',True)
-print(mobile_object)
 print(mobile_object.make_call(29384989199))
 print(mobile_object.play_game('freefire'))
